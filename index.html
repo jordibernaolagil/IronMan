@@ -188,7 +188,7 @@
                 dibujoTama: function () {   
                     let dibujo= "IronMan";
                     if (vida <=0 || energia <=0){
-                        dibujo= "<img src='img/dead.png'>";
+                        dibujo= "<img src='./img/dead.png'>";
                         document.getElementById("ironmanimg").innerHTML = dibujo; 
                         document.getElementById('fightI').style.display="none";
                         document.getElementById('fightII').style.display="none";
@@ -204,7 +204,7 @@
                     
                     else {
                         if (conocimiento >=0 && conocimiento<= 19){
-                            dibujo = "<img src='img/markI.png'>"; 
+                            dibujo = "<img src='./img/markI.png'>"; 
                             document.getElementById('fightI').style.display="block";
                             document.getElementById('fightII').style.display="none";
                             document.getElementById('fightIII').style.display="none";
@@ -212,7 +212,7 @@
                             document.getElementById('fightV').style.display="none";
                         } 
                         if (conocimiento >= 20 && conocimiento<=39){
-                            dibujo = "<img src='img/markII.png'>";
+                            dibujo = "<img src='./img/markII.png'>";
                             document.getElementById('fightI').style.display="none";
                             document.getElementById('fightII').style.display="block";
                             document.getElementById('fightIII').style.display="none";
@@ -220,7 +220,7 @@
                             document.getElementById('fightV').style.display="none"; 
                         }
                         if (conocimiento >=40 && conocimiento <=59){
-                            dibujo = "<img src='img/markIII.png'>";   
+                            dibujo = "<img src='./img/markIII.png'>";   
                             document.getElementById('fightI').style.display="none";
                             document.getElementById('fightII').style.display="none";
                             document.getElementById('fightIII').style.display="block";
@@ -228,7 +228,7 @@
                             document.getElementById('fightV').style.display="none";
                         }
                         if (conocimiento >=60 && conocimiento <=79){
-                            dibujo = "<img src='img/markIV.png'>";   
+                            dibujo = "<img src='./img/markIV.png'>";   
                             document.getElementById('fightI').style.display="none";
                             document.getElementById('fightII').style.display="none";
                             document.getElementById('fightIII').style.display="none";
@@ -236,7 +236,7 @@
                             document.getElementById('fightV').style.display="none";
                         }
                         if (conocimiento >=80 && conocimiento <=100){
-                            dibujo = "<img src='img/markV.png'>";   
+                            dibujo = "<img src='./img/markV.png'>";   
                             document.getElementById('fightI').style.display="none";
                             document.getElementById('fightII').style.display="none";
                             document.getElementById('fightIII').style.display="none";
